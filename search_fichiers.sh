@@ -7,7 +7,8 @@ read -p 'tapez le répertoire que dans lequel vous souhaitez entrer: ' doss
 less  "$doss"
 
 echo "$doss"
-read -p 'quels fichiers chezrchez vous?' fich
+read -p 'quels fichiers chezrchez vous? le paramètre 1 est' fich
+read -p 'quels contenus souhaitez-vous recherchez dedans? le paramètre 2 est:' detail
 sudo updatedb
-locate $doss/$fich
+locate $doss/$fich | grep -i $detail
 
