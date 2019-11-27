@@ -3,7 +3,7 @@
 
 Pour continuer, j'ai cloné sur linux le projet via le lien ssh disponible sur mon répertoire personnel et la fonction git clone.
 
-Je me connecte ensuite sur linux, et j'applique une commande cd pour me mettre dans le dossier MoSEF-Projet-2019
+Sur linux,  j'applique une commande cd pour me mettre dans le dossier MoSEF-Projet-2019
 
 Je crée un vim Search_fichier.sh dans lequel j'entre la fonction demandée. Pour l'appliqué, il faudra utiliser un bash suivi du nom du dossier. Il vous indiquera le moment de connexion en plus de vous souhaitez la bienvenue.
 Il vous sera demandé de taper un répertoire auquel vous souhaitez accéder. Une fois fait, il vous le montrera.
@@ -21,6 +21,7 @@ Pour applquer la fonction, il suffira donc de taper la commande bash search_fich
 Tout vous sera indiqué ensuite. Un sudo updatedb a également été ajouté, au cas où le fichier recherché date de moins de 24h.  Le mdp a tapé est: sorb******
 
 
-
+PSSS: la fonction ne marche que dans le dossier MoSEF-Prjet-2019, elle ne peut rechercher que les dossiers présents dedans. Pour la tester, j'ai créé un dossier Documents puis un fichier test dans lequel j'ai mit la phrase "tout est dit".
+La si l'on recherche le mot "tout", la fonction donnera le lien du fichier test. Si elle recherche un paramètre non présent dans aucun fichier, elle ne dira rien!
 
 
